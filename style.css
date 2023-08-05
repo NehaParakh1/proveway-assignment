@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 646px;
+height: 748px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+
+}
+.line{
+width: 93.996px;
+height: 0.904px;
+background: #C8C8C8;
+margin:21px;
+
+}
+
+.heading h1 {
+  color: #007f61;
+  font-family: Metropolis;
+  font-size: 18.076px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 340.734px;
+  height: 74.112px;
+  flex-shrink: 0;
+  border-radius: 3.615px;
+  border: 0.904px solid #c8c8c8;
+  background: #fff;
+margin-bottom: 24.69px;
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+.selection-circle {
+    position: absolute;
+    width: 14.461px;
+    height: 14.461px;
+    flex-shrink: 0;
+    stroke-width: 0.904px;
+    stroke: #DADADA;
+   margin: 29.83px 304.58px 29.83px 21.69px;
+    justify-content: center;
+}
+
+.column{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 54.23px;
+  
+}
+.pair{
+    color: #000;
+font-family: Metropolis;
+font-size: 14.461px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 19.88px;
+margin-bottom: 5.88px;
+
+}
+
+.price{
+    color: #000;
+font-family: Metropolis;
+font-size: 14.461px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 20.34px;
+}
+
+.discount{
+    color: #000;
+font-family: Metropolis;
+font-size: 14.461px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+margin: 29.83px 21.77px 30.29px 253.97px;
+}
+
+
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 24.69px;
+  
+}
+
+.left{
+    color: #007F61;
+font-weight: 500;
+opacity: 0.6;
+}
+
+.right{
+    color: #000;
+font-style: normal;
+margin-left: 75px;
+}
+
+.right span{
+    font-weight: 500;
+}
+
+.button{
+width: 341px;
+height: 48px;
+border-radius: 4px 4px 4px 0px;
+background: #007F61;
+color: #FFF;
+font-family: 'Inter';
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 10px;
+}
+
+footer{
+    color: #000;
+    font-family: Inter;
+    font-size: 7.333px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+ margin-left: 215px;
+ 
+}
+
+footer span{
+    font-size: 12px;
+font-style: italic;
+font-weight: 100;
+}
