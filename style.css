@@ -1,30 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@0,400;1,300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
 
-.container{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-width: 646px;
-height: 748px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 646px;
+  height: 748px;
 }
 
-.heading{
-    display: flex;
-    flex-direction: row;
-
+.heading {
+  display: flex;
+  flex-direction: row;
 }
-.line{
-width: 93.996px;
-height: 0.904px;
-background: #C8C8C8;
-margin:21px;
-
+.line {
+  width: 93.996px;
+  height: 0.904px;
+  background: #c8c8c8;
+  margin: 21px;
 }
 
 .heading h1 {
   color: #007f61;
-  font-family: Metropolis;
+  font-family: "Metropolis", sans-serif;
   font-size: 18.076px;
   font-style: normal;
   font-weight: 500;
@@ -35,125 +34,245 @@ margin:21px;
 .box {
   width: 340.734px;
   height: 74.112px;
+
   flex-shrink: 0;
   border-radius: 3.615px;
   border: 0.904px solid #c8c8c8;
   background: #fff;
-margin-bottom: 24.69px;
-display: flex;
-flex-direction: row;
-position: relative;
+  margin-bottom: 24.69px;
+  display: flex;
+  flex-direction: column;
 }
 
-.selection-circle {
-    position: absolute;
-    width: 14.461px;
-    height: 14.461px;
-    flex-shrink: 0;
-    stroke-width: 0.904px;
-    stroke: #DADADA;
-   margin: 29.83px 304.58px 29.83px 21.69px;
-    justify-content: center;
+.box-header {
+  display: flex;
+  flex-direction: row;
 }
 
-.column{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin-left: 54.23px;
-  
-}
-.pair{
-    color: #000;
-font-family: Metropolis;
-font-size: 14.461px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 19.88px;
-margin-bottom: 5.88px;
-
+.radio {
+  position: absolute;
+  width: 14.461px;
+  height: 14.461px;
+  flex-shrink: 0;
+  stroke-width: 0.904px;
+  stroke: #dadada;
+  margin: 29.83px 304.58px 29.83px 21.69px;
+  justify-content: center;
 }
 
-.price{
-    color: #000;
-font-family: Metropolis;
-font-size: 14.461px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-bottom: 20.34px;
+.column {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 54.23px;
+}
+.pair {
+  color: #000;
+  font-family: "Metropolis",sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 19.88px;
+  margin-bottom: 5.88px;
 }
 
-.discount{
-    color: #000;
-font-family: Metropolis;
-font-size: 14.461px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: uppercase;
-margin: 29.83px 21.77px 30.29px 253.97px;
+.price {
+  display: flex;
+  flex-direction: row;
+}
+.regular-price {
+  color: #000;
+  font-family: "Metropolis",sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20.34px;
 }
 
+.discounted-price {
+  color: #000;
+  font-family: "Inter",sans-serif;
+  font-size: 9.942px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3;
+  text-decoration: line-through;
+  margin-left: 30px;
+}
 
+.offer {
+}
+.discount {
+  color: #000;
+  font-family: "Metropolis",sans-serif;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 39.77px 21.77px 30.29px 253.97px;
+}
 
-.content{
+.para {
+  position: absolute;
+  color: #007f61;
+  font-family: "Inter",sans-serif;
+  font-size: 12.653px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 230.97px;
+  margin-right: 21.77px;
+  margin-top: 19.88px;
+}
+
+.content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    line-height: normal;
-    margin-bottom: 24.69px;
-  
+  font-family: "Inter",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 24.69px;
 }
 
-.left{
-    color: #007F61;
-font-weight: 500;
-opacity: 0.6;
+.left {
+  color: #007f61;
+  font-weight: 500;
+  opacity: 0.6;
 }
 
-.right{
-    color: #000;
-font-style: normal;
-margin-left: 75px;
+.right {
+  color: #000;
+  font-style: normal;
+  margin-left: 75px;
 }
 
-.right span{
-    font-weight: 500;
+.right span {
+  font-weight: 500;
 }
 
-.button{
-width: 341px;
-height: 48px;
-border-radius: 4px 4px 4px 0px;
-background: #007F61;
-color: #FFF;
-font-family: 'Inter';
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-bottom: 10px;
+.button {
+  width: 341px;
+  height: 48px;
+  border-radius: 4px 4px 4px 0px;
+  background: #007f61;
+  color: #fff;
+  font-family: "Inter",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
 }
 
-footer{
-    color: #000;
-    font-family: Inter;
-    font-size: 7.333px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
- margin-left: 215px;
- 
+footer {
+  color: #000;
+  font-family: "Inter",sans-serif;
+  font-size: 7.333px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 215px;
 }
 
-footer span{
-    font-size: 12px;
-font-style: italic;
-font-weight: 100;
+footer span {
+  font-family: "Inter",sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.box-expanded {
+  display: none;
+}
+
+.first-row {
+  color: #000;
+  font-family: "Inter",sans-serif;
+  font-size: 9.942px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  margin-left: 54.23px;
+  margin-top: -22px;
+}
+
+.margin {
+  margin-right: 48px;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.second-row p {
+  color: #000;
+  font-family: "Inter",sans-serif;
+  font-size: 9.038px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 7px;
+}
+
+.size-options {
+  width: 65.978px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+  margin-right: 7px;
+  margin-bottom: 8px;
+}
+
+.color-options {
+  width: 72.304px;
+  height: 25.306px;
+  border-radius: 1.808px;
+  border: 0.904px solid #d9d9d9;
+  background: #fff;
+}
+
+.third-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+.third-row p {
+  color: #000;
+  font-family: "Inter",sans-serif;
+  font-size: 9.038px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 7px;
+}
+
+.fourth-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+
+.fourth-row p {
+  color: #000;
+  font-family: "Inter",sans-serif;
+  font-size: 9.038px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 7px;
 }

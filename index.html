@@ -1,71 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment</title>
-    <link rel="stylesheet" href="style.css" >
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="heading">
-            <div class="line"></div>
-            <h1>Bundle & Save</h1>
-            <div class="line"></div>  
+      <!-- creating the heading -->
+
+      <div class="heading">
+        <div class="line"></div>
+        <h1>Bundle & Save</h1>
+        <div class="line"></div>
+      </div>
+
+      <!-- creating the 1st box -->
+
+      <div class="box">
+        <div class="box-header">
+          <div class="selection-circle">
+            <input class="radio" type="radio" />
+          </div>
+          <div class="column">
+            <div class="pair">1 pair</div>
+            <div class="price">DKK 195.00</div>
+          </div>
         </div>
-        
-        <div class="box">
-            <div class="box-header">
-              <div class="selection-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <circle cx="7.92151" cy="8.20799" r="6.77852" stroke="#DADADA" stroke-width="0.903803"/>
-              </svg></div>
-              <div class="column">
-              <div class="pair">1 pair</div>
-              <div class="price">DKK 195.00</div>
-            </div>
-              <div class="discount">50% off</div>
-            </div>
-          </div>
-          
-          <div class="box">
-            <div class="box-header">
-              <div class="selection-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <circle cx="7.92151" cy="8.20799" r="6.77852" stroke="#DADADA" stroke-width="0.903803"/>
-              </svg></div>
-              <div class="column">
-              <div class="pair">2 pair</div>
-              <div class="price">DKK 345.00</div>
-            </div>
-              <div class="discount">40% off</div>
-            </div>
-          </div>
-          
-          <div class="box">
-            <div class="box-header">
-              <div class="selection-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <circle cx="7.92151" cy="8.20799" r="6.77852" stroke="#DADADA" stroke-width="0.903803"/>
-              </svg></div>
-              <div class="column">
-              <div class="pair">3 pair</div>
-              <div class="price">DKK 528.00</div>
-            </div>
-              <div class="discount">60% off</div>
-            </div>
+        <div class="discount">50% off</div>
+
+        <!-- creating the expanded box part which only shows up when radio button is clicked -->
+
+        <div class="box-expanded">
+          <div class="first-row">
+            <p class="margin">Size</p>
+            <p>Color</p>
           </div>
 
-          <div class="content">
-            <div class="left">
-                <div>Free 2 Day Shipping</div>
-            </div>
-            <div class="right">
-                <div>Total : <span>DKK 360.00</span></div>
-            </div>
+          <div class="second-row">
+            <p>#1</p>
+            <select class="size-options">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="color-options">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Yellow</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+       <!-- creating the 2nd box -->
+
+      <div class="box">
+        <div class="box-header">
+          <div class="selection-circle">
+            <input class="radio" type="radio" />
+          </div>
+          <div class="column">
+            <div class="pair">2 pair</div>
+            <div class="price">
+            <div class="regular-price">DKK 345.00</div>
+            <div class="discounted-price">DKK 195.00</div>
+          </div>
+          </div>
+        </div>
+        <div class="offer"><p class="para">Most Popular</p>
+          <p class="discount">40% off</p></div>
+
+    <!-- creating the expanded box part which only shows up when radio button is clicked -->
+
+        <div class="box-expanded">
+          <div class="first-row">
+            <p class="margin">Size</p>
+            <p>Color</p>
           </div>
 
-          <button class="button">+ Add to Cart</button>
-<footer>&copy; <span>Powered by Pumper</span></footer>
+          <div class="second-row">
+            <p>#1</p>
+            <select class="size-options">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="color-options">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Yellow</option>
+            </select>
+          </div>
 
+          <div class="third-row">
+            <p>#2</p>
+            <select class="size-options">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="color-options">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Yellow</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+       <!-- creating the 3rd box -->
+
+      <div class="box" id="box-3">
+        <div class="box-header">
+          <div class="selection-circle">
+            <input class="radio" type="radio" />
+          </div>
+          <div class="column">
+            <div class="pair">3 pair</div>
+            <div class="price">DKK 528.00</div>
+          </div>
+        </div>
+        <div class="discount">60% off</div>
+
+      <!-- creating the expanded box part which only shows up when radio button is clicked -->
+
+        <div class="box-expanded">
+          <div class="first-row">
+            <p class="margin">Size</p>
+            <p>Color</p>
+          </div>
+
+          <div class="second-row">
+            <p>#1</p>
+            <select class="size-options">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="color-options">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Yellow</option>
+            </select>
+          </div>
+
+          <div class="third-row">
+            <p>#2</p>
+            <select class="size-options">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="color-options">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Yellow</option>
+            </select>
+          </div>
+
+          <div class="fourth-row">
+            <p>#3</p>
+            <select class="size-options">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="color-options">
+              <option>Blue</option>
+              <option>Red</option>
+              <option>Green</option>
+              <option>Yellow</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- creating the total price and shipping part -->
+
+      <div class="content">
+        <div class="left">
+          <div>Free 2 Day Shipping</div>
+        </div>
+        <div class="right">
+          <div>Total : <span>DKK 360.00</span></div>
+        </div>
+      </div>
+
+      <!-- add to cart button -->
+
+      <button class="button">+ Add to Cart</button>
+
+      <!-- footer part -->
+
+      <footer>&copy; <span>Powered by Pumper</span></footer>
     </div>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
