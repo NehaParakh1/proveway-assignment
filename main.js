@@ -31,16 +31,6 @@ radioButtons.forEach((radioButton, index) => {
         box.parentElement.style.border = '0.904px solid #007F61';
         box.parentElement.style.background = '#F4FBF9';
         box.parentElement.style.height = "161.781px";
-
-        // as the third box has three pairs, increasing the height
-        if(index===2){
-            box.parentElement.style.height = "195.781px"  
-        }
-
-//as the first box has 1 pair, decreasing the height
-        if(index===0){
-            box.parentElement.style.height = "127.781px"
-        }
       } else {
         box.parentElement.style.border = '0.904px solid #c8c8c8';
         box.parentElement.style.background = '#fff';
