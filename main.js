@@ -37,7 +37,7 @@ radioButtons.forEach((radioButton, index) => {
             box.parentElement.style.height = "195.781px"  
         }
 
-//as the first box has 1 pair, decresing the height
+//as the first box has 1 pair, decreasing the height
         if(index===0){
             box.parentElement.style.height = "127.781px"
         }
